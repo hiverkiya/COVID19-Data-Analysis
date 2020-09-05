@@ -581,7 +581,7 @@ plt.legend()
 
 
 
-![png](output_15_2.png)
+![png](images/output_15_2.png)
 
 
 ### Task3: Calculating a good measure 
@@ -604,7 +604,7 @@ corona_dataset_aggregated.loc['India'].plot()
 
 
 
-![png](output_17_2.png)
+![png](images/output_17_2.png)
 
 
 
@@ -624,7 +624,7 @@ corona_dataset_aggregated.loc["India"][:3].plot()
 
 
 
-![png](output_18_2.png)
+![png](images/output_18_2.png)
 
 
 ### task 3.1: Calculating the first derivative of the curve
@@ -646,7 +646,7 @@ corona_dataset_aggregated.loc["India"].diff().plot().legend()
 
 
 
-![png](output_20_2.png)
+![png](images/output_20_2.png)
 
 
 ### task 3.2: find maximum infection rate for India , Italy and China
@@ -1782,7 +1782,7 @@ sns.scatterplot(x,np.log(y))
 
 
 
-![png](output_54_1.png)
+![png](images/output_54_1.png)
 
 
 
@@ -1798,7 +1798,7 @@ sns.regplot(x,np.log(y))
 
 
 
-![png](output_55_1.png)
+![png](images/output_55_1.png)
 
 
 ### Task 5.2: Plotting Social support vs maximum Infection rate
@@ -1818,7 +1818,7 @@ sns.scatterplot(x,np.log(y))
 
 
 
-![png](output_57_1.png)
+![png](images/output_57_1.png)
 
 
 
@@ -1834,7 +1834,7 @@ sns.regplot(x,np.log(y))
 
 
 
-![png](output_58_1.png)
+![png](images/output_58_1.png)
 
 
 ### Task 5.3: Plotting Healthy life expectancy vs maximum Infection rate
@@ -1854,7 +1854,7 @@ sns.scatterplot(x,np.log(y))
 
 
 
-![png](output_60_1.png)
+![png](images/output_60_1.png)
 
 
 
@@ -1870,7 +1870,7 @@ sns.regplot(x,np.log(y))
 
 
 
-![png](output_61_1.png)
+![png](images/output_61_1.png)
 
 
 ### Task 5.4: Plotting Freedom to make life choices vs maximum Infection rate
@@ -1890,7 +1890,7 @@ sns.scatterplot(x,np.log(y))
 
 
 
-![png](output_63_1.png)
+![png](images/output_63_1.png)
 
 
 
@@ -1906,5 +1906,5 @@ sns.regplot(x,np.log(y))
 
 
 
-![png](output_64_1.png)
+![png](images/output_64_1.png)
 
